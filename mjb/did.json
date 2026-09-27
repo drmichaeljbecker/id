@@ -2,6 +2,7 @@
   "@context": ["https://www.w3.org/ns/did/v1"],
   "id": "did:web:id.identitypraxis.com:mjb",
   "alsoKnownAs": [
+    "https://orcid.org/0009-0003-9614-5537",
     "https://www.identitypraxis.com"
   ]
 }
