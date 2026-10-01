@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "credentialSubject": {
+    "id": "did:web:id.identitypraxis.com:mjb",
+    "post": {
+      "audience": "public",
+      "network": "LinkedIn",
+      "normalisation": "praxamark-text-1",
+      "text": "#Praxamark",
+      "textSha256": "2422e359beef1edf02c1e874dd97311b21aff0cdefc4d844009ccf9049c6f912"
+    },
+    "sequence": 1,
+    "source": {
+      "title": "Carla Eckhardt Taracena | LinkedIn",
+      "url": "https://www.linkedin.com/in/carla-eckhardt-taracena-2693595/"
+    }
+  },
+  "id": "urn:uuid:98b7965a-ec43-4d38-9ad1-a478bb66797d",
+  "issuer": {
+    "id": "did:web:id.identitypraxis.com:mjb",
+    "name": "Dr. Michael J. Becker"
+  },
+  "proof": {
+    "@context": [
+      "https://www.w3.org/ns/credentials/v2"
+    ],
+    "created": "2026-10-01T00:36:47Z",
+    "cryptosuite": "eddsa-jcs-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z61sWpNEMDSx8ELa1Qaogj9wB7HtRBRPVa1spoT67FqqmaCC6wuJ4ZURXGSAkCQQsATNwoaC7Pg6pSu5dbC4LcsfU",
+    "type": "DataIntegrityProof",
+    "verificationMethod": "did:web:id.identitypraxis.com:mjb#z6MkoA2tbhcwdePYp1VrdcDsrHLCikyjDjaUEoHGXmmPjGVP"
+  },
+  "type": [
+    "VerifiableCredential",
+    "PraxamarkStamp"
+  ],
+  "validFrom": "2026-10-01T00:36:47Z"
+}

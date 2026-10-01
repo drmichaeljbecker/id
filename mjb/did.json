@@ -1,10 +1,35 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1"],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
   "id": "did:web:id.identitypraxis.com:mjb",
   "alsoKnownAs": [
     "https://orcid.org/0009-0003-9614-5537",
     "did:plc:4drzjgte5flgbiabhnurbeo2",
     "at://drmichaeljbecker.bsky.social",
-    "https://www.identitypraxis.com"
+    "https://www.identitypraxis.com",
+    "https://www.linkedin.com/in/drmichaeljbecker/"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:id.identitypraxis.com:mjb#z6MkoA2tbhcwdePYp1VrdcDsrHLCikyjDjaUEoHGXmmPjGVP",
+      "type": "Multikey",
+      "controller": "did:web:id.identitypraxis.com:mjb",
+      "publicKeyMultibase": "z6MkoA2tbhcwdePYp1VrdcDsrHLCikyjDjaUEoHGXmmPjGVP"
+    },
+    {
+      "id": "did:web:id.identitypraxis.com:mjb#z6MkhyoZYMrCxociTQTeTENUsWwCXzX5X1J7U86Zbud18g9m",
+      "type": "Multikey",
+      "controller": "did:web:id.identitypraxis.com:mjb",
+      "publicKeyMultibase": "z6MkhyoZYMrCxociTQTeTENUsWwCXzX5X1J7U86Zbud18g9m"
+    }
+  ],
+  "authentication": [
+    "did:web:id.identitypraxis.com:mjb#z6MkoA2tbhcwdePYp1VrdcDsrHLCikyjDjaUEoHGXmmPjGVP"
+  ],
+  "assertionMethod": [
+    "did:web:id.identitypraxis.com:mjb#z6MkoA2tbhcwdePYp1VrdcDsrHLCikyjDjaUEoHGXmmPjGVP",
+    "did:web:id.identitypraxis.com:mjb#z6MkhyoZYMrCxociTQTeTENUsWwCXzX5X1J7U86Zbud18g9m"
   ]
 }
